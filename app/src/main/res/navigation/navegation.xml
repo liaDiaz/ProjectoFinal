@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navegation"
+    app:startDestination="@id/inicio">
+
+    <fragment
+        android:id="@+id/inicio"
+        android:name="edu.tec.projectofinal.inicio"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio" >
+        <action
+            android:id="@+id/action_inicio_to_nav1"
+            app:destination="@id/nav1" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav1"
+        android:name="edu.tec.projectofinal.Nav1"
+        android:label="fragment_nav1"
+        tools:layout="@layout/fragment_nav1" >
+        <action
+            android:id="@+id/action_nav1_to_navInicioSesion"
+            app:destination="@id/navInicioSesion" />
+        <action
+            android:id="@+id/action_nav1_to_navRegistrarse"
+            app:destination="@id/navRegistrarse" />
+    </fragment>
+    <fragment
+        android:id="@+id/navInicioSesion"
+        android:name="edu.tec.projectofinal.navInicioSesion"
+        android:label="fragment_nav_inicio_sesion"
+        tools:layout="@layout/fragment_nav_inicio_sesion" >
+        <action
+            android:id="@+id/action_navInicioSesion_to_escogerTypoCilindro"
+            app:destination="@id/escogerTypoCilindro" />
+    </fragment>
+    <fragment
+        android:id="@+id/escogerTypoCilindro"
+        android:name="edu.tec.projectofinal.escogerTypoCilindro"
+        android:label="fragment_escoger_typo_cilindro"
+        tools:layout="@layout/fragment_escoger_tipo_cilindro" />
+    <fragment
+        android:id="@+id/navRegistrarse"
+        android:name="edu.tec.projectofinal.navRegistrarse"
+        android:label="fragment_nav_registrarse"
+        tools:layout="@layout/fragment_nav_registrarse" >
+        <action
+            android:id="@+id/action_navRegistrarse_to_navInicioSesion"
+            app:destination="@id/navInicioSesion" />
+    </fragment>
+</navigation>
