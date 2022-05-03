@@ -66,5 +66,14 @@
         android:id="@+id/tamanoVasoFragment"
         android:name="edu.tec.projectofinal.tamanoVasoFragment"
         android:label="fragment_tamano_vaso"
-        tools:layout="@layout/fragment_tamano_vaso" />
+        tools:layout="@layout/fragment_tamano_vaso" >
+        <action
+            android:id="@+id/action_tamanoVasoFragment_to_carritoFragment"
+            app:destination="@id/carritoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/carritoFragment"
+        android:name="edu.tec.projectofinal.CarritoFragment"
+        android:label="fragment_carrito"
+        tools:layout="@layout/fragment_carrito" />
 </navigation>
