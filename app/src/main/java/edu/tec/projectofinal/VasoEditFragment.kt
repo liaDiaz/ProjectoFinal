@@ -6,11 +6,12 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
-import edu.tec.projectofinal.databinding.FragmentEscogerTipoCilindroBinding
+import edu.tec.projectofinal.databinding.FragmentVasoEditBinding
 
 
-class escogerTypoCilindro : Fragment() {
-    lateinit var binding: FragmentEscogerTipoCilindroBinding
+class VasoEditFragment : Fragment() {
+
+    lateinit var binding: FragmentVasoEditBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -21,13 +22,14 @@ class escogerTypoCilindro : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-       binding = FragmentEscogerTipoCilindroBinding.inflate(layoutInflater)
-       return binding.root
+        binding = FragmentVasoEditBinding.inflate(layoutInflater)
+        return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        binding.imageButton6.setOnClickListener {
-            findNavController().navigate(R.id.action_escogerTypoCilindro_to_vasoEditFragment)
+        binding.botonContinuar.setOnClickListener {
+            findNavController().navigate(R.id.action_vasoEditFragment_to_tamanoVasoFragment)
         }
     }
+
 }
