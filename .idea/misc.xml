@@ -12,16 +12,12 @@
         <entry key="..\:/Users/liaDiaz/AndroidStudioProjects/ProjectoFinal/app/src/main/res/layout/fragment_inicio.xml" value="0.14" />
         <entry key="..\:/Users/liaDiaz/AndroidStudioProjects/ProjectoFinal/app/src/main/res/layout/fragment_nav1.xml" value="0.33" />
         <entry key="..\:/Users/liaDiaz/AndroidStudioProjects/ProjectoFinal/app/src/main/res/layout/fragment_nav_Inicio_sesion.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/liaDiaz/AndroidStudioProjects/ProjectoFinal/app/src/main/res/layout/fragment_nav_carrito.xml" value="0.13768115942028986" />
         <entry key="..\:/Users/liaDiaz/AndroidStudioProjects/ProjectoFinal/app/src/main/res/layout/fragment_nav_iniciar_sesion.xml" value="0.1539855072463768" />
         <entry key="..\:/Users/liaDiaz/AndroidStudioProjects/ProjectoFinal/app/src/main/res/layout/fragment_nav_inicio_sesion.xml" value="0.18" />
         <entry key="..\:/Users/liaDiaz/AndroidStudioProjects/ProjectoFinal/app/src/main/res/layout/fragment_nav_registrarse.xml" value="0.13768115942028986" />
         <entry key="..\:/Users/liaDiaz/AndroidStudioProjects/ProjectoFinal/app/src/main/res/layout/fragment_nav_registro.xml" value="0.1539855072463768" />
-        <entry key="app/src/main/res/layout/fragment_carrito.xml" value="0.41345367431640623" />
-        <entry key="app/src/main/res/layout/fragment_escoger_tipo_cilindro.xml" value="0.17119565217391305" />
-        <entry key="app/src/main/res/layout/fragment_nav1.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/fragment_nav_inicio_sesion.xml" value="0.3098958333333333" />
-        <entry key="app/src/main/res/layout/fragment_tamano_vaso.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/fragment_vaso_edit.xml" value="0.17119565217391305" />
+        <entry key="..\:/Users/liaDiaz/AndroidStudioProjects/ProjectoFinal/app/src/main/res/layout/fragment_vaso_edit.xml" value="0.13768115942028986" />
       </map>
     </option>
   </component>
