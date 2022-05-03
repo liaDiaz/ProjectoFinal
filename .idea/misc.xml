@@ -3,6 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/andyv/Desktop/Escuela/Sem feb-jun 22/Des. api Android/ProjectoFinal/app/src/main/res/drawable/discarr.xml" value="0.1" />
+        <entry key="..\:/Users/andyv/Desktop/Escuela/Sem feb-jun 22/Des. api Android/ProjectoFinal/app/src/main/res/layout/activity_main.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/andyv/Desktop/Escuela/Sem feb-jun 22/Des. api Android/ProjectoFinal/app/src/main/res/layout/fragment_escoger_tipo_cilindro.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/andyv/Desktop/Escuela/Sem feb-jun 22/Des. api Android/ProjectoFinal/app/src/main/res/layout/fragment_inicio.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/andyv/Desktop/Escuela/Sem feb-jun 22/Des. api Android/ProjectoFinal/app/src/main/res/layout/fragment_nav1.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/andyv/Desktop/Escuela/Sem feb-jun 22/Des. api Android/ProjectoFinal/app/src/main/res/layout/fragment_nav_inicio_sesion.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/andyv/Desktop/Escuela/Sem feb-jun 22/Des. api Android/ProjectoFinal/app/src/main/res/layout/fragment_nav_registrarse.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/andyv/Desktop/Escuela/Sem feb-jun 22/Des. api Android/ProjectoFinal/app/src/main/res/layout/fragment_tamano_vaso.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/andyv/Desktop/Escuela/Sem feb-jun 22/Des. api Android/ProjectoFinal/app/src/main/res/layout/fragment_vaso_edit.xml" value="0.22" />
         <entry key="..\:/Users/liaDiaz/AndroidStudioProjects/ProjectoFinal/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
         <entry key="..\:/Users/liaDiaz/AndroidStudioProjects/ProjectoFinal/app/src/main/res/drawable/background.xml" value="0.1875" />
         <entry key="..\:/Users/liaDiaz/AndroidStudioProjects/ProjectoFinal/app/src/main/res/drawable/escogercilindro.xml" value="0.1065" />
@@ -16,10 +25,6 @@
         <entry key="..\:/Users/liaDiaz/AndroidStudioProjects/ProjectoFinal/app/src/main/res/layout/fragment_nav_inicio_sesion.xml" value="0.18" />
         <entry key="..\:/Users/liaDiaz/AndroidStudioProjects/ProjectoFinal/app/src/main/res/layout/fragment_nav_registrarse.xml" value="0.13768115942028986" />
         <entry key="..\:/Users/liaDiaz/AndroidStudioProjects/ProjectoFinal/app/src/main/res/layout/fragment_nav_registro.xml" value="0.1539855072463768" />
-        <entry key="app/src/main/res/layout/fragment_escoger_tipo_cilindro.xml" value="0.17119565217391305" />
-        <entry key="app/src/main/res/layout/fragment_nav1.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/fragment_tamano_vaso.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/fragment_vaso_edit.xml" value="0.17119565217391305" />
       </map>
     </option>
   </component>
