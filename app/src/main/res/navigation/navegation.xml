@@ -39,7 +39,11 @@
         android:id="@+id/escogerTypoCilindro"
         android:name="edu.tec.projectofinal.escogerTypoCilindro"
         android:label="fragment_escoger_typo_cilindro"
-        tools:layout="@layout/fragment_escoger_tipo_cilindro" />
+        tools:layout="@layout/fragment_escoger_tipo_cilindro" >
+        <action
+            android:id="@+id/action_escogerTypoCilindro_to_vasoEditFragment"
+            app:destination="@id/vasoEditFragment" />
+    </fragment>
     <fragment
         android:id="@+id/navRegistrarse"
         android:name="edu.tec.projectofinal.navRegistrarse"
@@ -49,4 +53,18 @@
             android:id="@+id/action_navRegistrarse_to_navInicioSesion"
             app:destination="@id/navInicioSesion" />
     </fragment>
+    <fragment
+        android:id="@+id/vasoEditFragment"
+        android:name="edu.tec.projectofinal.VasoEditFragment"
+        android:label="fragment_vaso_edit"
+        tools:layout="@layout/fragment_vaso_edit" >
+        <action
+            android:id="@+id/action_vasoEditFragment_to_tamanoVasoFragment"
+            app:destination="@id/tamanoVasoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tamanoVasoFragment"
+        android:name="edu.tec.projectofinal.tamanoVasoFragment"
+        android:label="fragment_tamano_vaso"
+        tools:layout="@layout/fragment_tamano_vaso" />
 </navigation>
